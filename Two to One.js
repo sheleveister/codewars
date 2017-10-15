@@ -21,11 +21,9 @@ function longest(s1, s2) {
   return strResult.split('').sort().join('');
 }
 
-longest("aretheyhere", "yestheyarehere"); // aehrsty
+longest("aretheyhere", "yestheyarehere");
 
 
 function longestBest(s1, s2) {
   return Array.from(new Set(s1 + s2)).sort().join('');
 }
-
-
