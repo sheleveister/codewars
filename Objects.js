@@ -1,3 +1,5 @@
+'use strict';
+
 let objFruits = {
   first: 'Apple',
   second: 'Orange',
@@ -95,3 +97,14 @@ function multipleNumeric(obj) {
 
 multipleNumeric (menu);
 console.log (menu);
+
+let browsers = {
+  Chrome: 65,
+  Safari: 11,
+  Firefox: 59
+};
+
+let lastVersions = browsers;
+browsers.Firefox = 58;
+
+console.log(lastVersions);
